@@ -1,5 +1,4 @@
-import { Example } from "./example";
+import { taskController } from "./compose";
+taskController.handlerAddTask('hola')
 
-const example = new Example('foo', 'bar', 10)
-
-example.print()
+console.log(taskController)
