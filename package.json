@@ -1,0 +1,27 @@
+{
+  "name": "mvc",
+  "version": "1.0.0",
+  "description": "A simple skeleton on ts for browser",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "rollup --watch --config rollup.config.js --configPlugin typescript",
+    "build": "rollup -c",
+    "clear": "rimraf dist"
+  },
+  "keywords": [
+    "template",
+    "skeleton",
+    "simple"
+  ],
+  "author": "Sion Ramos de los Santos",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-terser": "^0.4.3",
+    "@rollup/plugin-typescript": "^11.1.2",
+    "rimraf": "^5.0.1",
+    "rollup": "^3.28.1",
+    "tslib": "^2.6.2",
+    "typescript": "^5.1.6"
+  }
+}
